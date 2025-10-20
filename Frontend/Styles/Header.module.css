@@ -1,0 +1,83 @@
+.container {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: -webkit-fill-available;
+  padding: 1rem 1rem 0.5rem 1rem;
+}
+.heading {
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+.button {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding: 0.4rem 0.4rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.edithover {
+  display: none;
+  position: absolute;
+  right: 4rem;
+  top: 4.3rem;
+  border: 1px solid var(--primary-color);
+  padding: 0.1rem 0.7rem;
+  border-radius: 0.2rem;
+  color: var(--primary-color);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.button:hover + .edithover {
+  display: block;
+}
+.right_part_1 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding: 0.4rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.right_part {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding: 0.4rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.signouthover {
+  display: none;
+  position: absolute;
+  right: 4rem;
+  top: 1.5rem;
+  border: 1px solid var(--primary-color);
+  padding: 0.1rem 1.5rem;
+  border-radius: 0.2rem;
+  color: var(--primary-color);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.right_part:hover + .signouthover {
+  display: block;
+}

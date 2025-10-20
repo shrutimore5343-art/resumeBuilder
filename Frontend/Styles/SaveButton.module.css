@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.button {
+  padding: 0;
+  margin: 0;
+  font-size: 1.25rem;
+  padding: 0.5rem 3rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  text-align: center;
+}
+.button {
+  --COLOR_BODY: var(--primary-color);
+  color: var(--COLOR_BODY);
+  border: 2px solid var(--COLOR_BODY);
+}
+.button:hover {
+  --COLOR_BODY: #82c6f9;
+  color: white;
+  background-color: var(--COLOR_BODY);
+}

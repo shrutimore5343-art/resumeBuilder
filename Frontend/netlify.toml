@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NEXT_PUBLIC_API_URL = "https://resume-builder-p8j7-110soyp1a-lynnfernandes23s-projects.vercel.app/"  # You'll need to replace this with your actual backend URL
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
